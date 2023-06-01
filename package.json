@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server"
   },
   "keywords": [],
   "author": "",
@@ -12,9 +13,12 @@
   "dependencies": {
     "core-js": "^3.30.2",
     "core.js": "^0.4.2",
-    "regenerator-runtime": "^0.13.11"
+    "regenerator-runtime": "^0.13.11",
+    "webpack-dev-server": "^4.15.0"
   },
   "devDependencies": {
-    "webpack": "^5.84.1"
+    "@webpack-cli/generators": "^3.0.4",
+    "webpack": "^5.84.1",
+    "webpack-cli": "^5.1.1"
   }
 }
