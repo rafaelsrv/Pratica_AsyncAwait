@@ -1,6 +1,10 @@
-import "core-js"
-import "regenerator-runtime/runtime"
+fetch('https://economia.awesomeapi.com.br/last/USD-BRL').then(response=>{
+    return response.json()
+}).then(nomes=>{
+    return nomes.USDBRL
+    
+}).then(dados=>{
+    document.getElementById("span").innerHTML = dados.name
+    document.getElementById("div").innerHTML = dados.bid
+})
 
-function anonymous(){
-    url = 'https://servicodados.ibge.gov.br/api/v1/localidades/distritos'
-}
