@@ -1,7 +1,7 @@
 fetch('https://economia.awesomeapi.com.br/last/USD-BRL').then(response=>{
     return response.json()
 }).then(nomes=>{
-    return nomes.USDBRL
+    return nomes.USDBRL//Retorna response.
     
 }).then(dados=>{
     document.getElementById("span").innerHTML = dados.name//
