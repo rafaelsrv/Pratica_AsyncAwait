@@ -7,4 +7,4 @@ fetch('https://economia.awesomeapi.com.br/last/USD-BRL').then(response=>{
     document.getElementById("span").innerHTML = dados.name//
     document.getElementById("div").innerHTML = dados.bid//Tipo de moeda!
 })
-//!
+//!!@
